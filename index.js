@@ -1,6 +1,6 @@
 //======================设置参数==============================
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;
-const vmms = process.env.MPATH || 'vms';  // vmes路径
+const vmms = process.env.MPATH || 'vms';  // vmes路径，仅支持单协议vmes
 const vmmport = process.env.MPORT || '8001';  // vmes端口
 const uuid = process.env.UUID || 'e9f3977b-7331-4e01-866b-7b196478cd9d'; // 订阅地址为/uuid
 const nezhaser = process.env.N_SERVER || 'xx';  //哪吒
