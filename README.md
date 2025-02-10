@@ -17,8 +17,12 @@
 
 ##### 4 开启权限，安装依赖
 
-上一步保存完，页面上会出现source /home/xxx/nodevenv/domains/xxx.freewebhostmost.com/public_html/16/bin/activate && cd /home/xxx/domains/xxx.freewebhostmost.com/public_html这句话，复制下来打开Development Tools➡terminal终端粘贴回车，然后再执行npm install安装依赖
+上一步保存完，页面上方会出现source /home/xxx/nodevenv/domains/xxx.freewebhostmost.com/public_html/16/bin/activate && cd /home/xxx/domains/xxx.freewebhostmost.com/public_html这样一句话，复制下来打开Development Tools➡terminal终端粘贴回车，然后，再输入npm install安装依赖
 
-4.安装完依赖回到nodejs创建页面restart即可
+##### 5 重启nodejs
+
+安装完依赖回到nodejs创建页面restart即可
+
+###  订阅地址
 
 输入网址/你的uuid值，可查看订阅
