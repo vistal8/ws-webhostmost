@@ -23,6 +23,12 @@
 
 安装完依赖回到nodejs创建页面restart即可
 
+##### 6、 再次部署
+
+先停止nodejs运行，再进Development Tools➡terminal面板输入pkill -kill -u $(whoami)，停止旧进程
+
+然后上传新文件，开启nodejs即可
+
 ####  订阅地址
 
 输入网址/你的uuid值，可查看订阅
