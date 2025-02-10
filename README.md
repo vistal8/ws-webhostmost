@@ -21,7 +21,7 @@
 
 ##### 5、 重启nodejs
 
-安装完依赖回到nodejs创建页面restart即可
+安装完依赖回到nodejs创建页面restart即可,点开网址，此时应该出现hello world 页面
 
 ##### 6、 再次部署
 
