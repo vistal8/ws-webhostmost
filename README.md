@@ -1,4 +1,4 @@
-# ws-webhostmost 部署vmess节点和哪吒
+# webhostmost 部署vmess单协议节点和哪吒
 
 # 简单文字步骤
 
