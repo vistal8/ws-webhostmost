@@ -2,7 +2,7 @@
 
 # 简单文字步骤
 
-先利用worker反代webhostmost给的域名，填入nodejs里面，更改uuid，然后按步骤部署
+先利用仓库里的worker.js在cf的worker里反代webhostmost给的域名，然后绑定自定义域名，把绑定的自定义域名即cf反代域名填入nodejs里面，更改uuid，哪吒等参数，然后按以下步骤部署
 
 1.上传文件index.js和package.json到domains/用户名.freewebhostmost.com/public_html文件夹，删掉文件夹下的index.html
 
