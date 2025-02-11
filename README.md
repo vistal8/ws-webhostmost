@@ -6,6 +6,8 @@
 
 先利用仓库里的worker.js在cf的worker里反代webhostmost给的域名，然后绑定自定义域名，把绑定的自定义域名即cf反代域名填入nodejs里面，更改uuid，哪吒等参数
 
+注意: 如果不使用cf反代，则把cfip和host都填webhostmost域名即可直连
+
 ##### 2、 上传文件
 
 上传文件index.js和package.json到domains/xxx.freewebhostmost.com/public_html文件夹里，删掉文件夹下的index.html
