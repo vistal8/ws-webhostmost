@@ -2,7 +2,7 @@
 
 ## 简单文字步骤
 
-#### 1、 CF反代
+#### 1、 CF反代(可选)
 
 先利用仓库里的worker.js在cf的worker里反代webhostmost给的域名，然后绑定自定义域名，把绑定的自定义域名即cf反代域名填入nodejs里面，更改uuid，哪吒等参数
 
