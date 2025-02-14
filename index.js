@@ -1,7 +1,7 @@
 //======================设置参数==============================
-const port = process.env.SERVER_PORT || process.env.PORT || 3000;
+const port = process.env.SERVER_PORT || 3000;
 const vmms = process.env.MPATH || 'vms';  // vmes路径
-const vmmport = process.env.MPORT || '8001';  // vmes端口
+const vmmport = process.env.MPORT || '8008';  // vmes端口
 const uuid = process.env.UUID || 'e9f3917b-7131-4e11-866b-7b196478cd9d'; // 订阅地址为/uuid
 const cfip = process.env.CFIP || 'ip.sb'; // 如果host填cf反代域名或隧道域名则填优选ip，否则填webhostmost域名直连
 const nezhaser = process.env.N_SERVER || '';  //哪吒参数，可选
