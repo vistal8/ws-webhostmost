@@ -42,4 +42,4 @@
 
 ### dataonline.vn
 
-把index2.js改成index.js，上传部署，保存完后，点击npm install按钮，安装完成后，把仓库文件index.js上传替换刚才的index2.js，再次重启即可
+待后续
