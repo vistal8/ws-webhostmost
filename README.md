@@ -43,3 +43,7 @@
 ### dataonline.vn
 
 待后续
+
+解压依赖到
+
+nodevenv/domains/xxxu/public_html/16/lib
