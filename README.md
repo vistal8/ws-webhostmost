@@ -14,7 +14,7 @@
 
 ##### 2、 上传文件
 
-上传文件index.js和package.json到domains/xxx.freewebhostmost.com/public_html文件夹
+上传文件index.js和package.json到domains/xxx.freewebhostmost.com/public_html文件夹，删掉原来的index.html，否则不能自保活
 
 ##### 3、 创建nodejs项目
 
