@@ -42,8 +42,4 @@
 
 ### dataonline.vn
 
-待后续
-
-解压依赖到
-
-nodevenv/domains/xxxu/public_html/16/lib
+index2.js改成index.js保存，点击npm install,然后换成index.js保存即可
