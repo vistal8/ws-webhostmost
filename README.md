@@ -41,7 +41,3 @@
 
 输入网址/你的uuid值，可查看订阅
 
-
-### dataonline.vn
-
-index2.js改成index.js上传保存，点击npm install,安装依赖成功后，换成index.js上传保存即可
