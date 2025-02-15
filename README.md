@@ -42,4 +42,4 @@
 
 ### dataonline.vn
 
-index2.js改成index.js保存，点击npm install,然后换成index.js保存即可
+index2.js改成index.js上传保存，点击npm install,安装依赖成功后，换成index.js上传保存即可
