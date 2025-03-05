@@ -1,18 +1,18 @@
 //======================设置参数==============================
 const port = process.env.SERVER_PORT || 3000;
-const vmms = process.env.MPATH || 'vms';  // vmes路径，必须
-const vmmport = process.env.MPORT || '8008';  // vmes端口，必须
-const uuid = process.env.UUID || ''; // 订阅地址为/uuid，必须
-const cfip = process.env.CFIP || 'ip.sb'; // 如果host填cf反代域名或隧道域名则填优选ip，否则使用webhostmost域名
-const nezhaser = process.env.N_SERVER || '';  // 哪吒，可选
+const vmms = process.env.MPATH || 'vms';  // vmes路径
+const vmmport = process.env.MPORT || '8008';  // vmes端口
+const uuid = process.env.UUID || ''; // 订阅地址为/uuid
+const cfip = process.env.CFIP || 'ip.sb'; // 如果host填cf反代域名或隧道域名则填优选ip，否则webhostmost域名
+const nezhaser = process.env.N_SERVER || '';  //哪吒，可选
 const nezhaKey = process.env.N_KEY || '';
 const nezport = process.env.N_PORT || '443';
 const neztls = process.env.N_TLS || '--tls';
-const baohuo = process.env.BAOHUO_URL || ''; // 保活地址，不带https://，可选
-const argoKey = process.env.TOK || '';  // webhostmost不要填，隧道token，可选
+const baohuo = process.env.BAOHUO_URL || ''; // 保活地址，可选
+const argoKey = process.env.TOK || '';  //webhostmost不填，隧道token
 const host = process.env.HOST || ''; // 填cf反代域名或隧道域名或webhostmost绑定的域名，必须
 const sub_name = process.env.SUB_NAME || 'webhostmost'; // 节点名称，可选
-const sub_url = process.env.SUB_URL || ''; // 订阅服务器地址，可选.
+const sub_url = process.env.SUB_URL || ''; // 订阅服务器地址，可选.不填不上传节点
 
 const MAX_ATTEMPTS = 5;
 const RETRY_DELAY = 5000; // 5 second 
