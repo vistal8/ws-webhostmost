@@ -2,7 +2,7 @@ export default {
   async fetch(request, env, ctx) {
     let url = new URL(request.url);
     if(url.pathname.startsWith('/')){
-      url.hostname="xxx.freewebhostmost.com"; // 修改成自己的节点IP/域名
+      url.hostname="dxe.us.kg"; // 修改成自己的节点IP/域名
       let new_request = new Request(url, request)
       return await fetch(new_request)
     }
